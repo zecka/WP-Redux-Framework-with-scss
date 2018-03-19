@@ -1,0 +1,18 @@
+@import 'starters/normalize';
+@import 'variables';
+
+.primary{
+	color: $primary-color;
+}
+.secondary{
+	color: $secondary-color;
+}
+
+// First we check if we hide header
+// If header is hide we don't need header rules in final css
+@if($hide-header == false){
+	header{
+		background-color: $primary-color;
+		color: #fff;
+	}
+}
