@@ -1,3 +1,6 @@
+// USE !default argument to allow scssphp to overwrite the variables.
+// scssphp set variable and after compile scss to css 
+// so if you don't use !default argument all variables define with redux will be overwrite by scss files
 $primary-color: #ff0000 !default;
 $secondary-color: #00ff00 !default;
 $hide-header: false !default;
